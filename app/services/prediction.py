@@ -14,7 +14,7 @@ class PredictionService:
             'apiKey': self.settings.BINANCE_API_KEY,
             'secret': self.settings.BINANCE_API_SECRET
         })
-        
+         
     async def predict(self, symbol: str, timeframe: str = "1h", features: Optional[List[str]] = None) -> PredictionResponse:
         """
         Generate price predictions for the specified cryptocurrency
