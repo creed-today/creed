@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     BINANCE_API_KEY: str
     BINANCE_API_SECRET: str
     COINGECKO_API_KEY: Optional[str] = None
-    
+     
     # Database
     DATABASE_URL: str
     
